@@ -36,7 +36,7 @@ export const projectsData = [
         projectName: 'Visitly, The Accomodation Platform',
         projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
         tags: ['Ejs', 'Node.js','Express.js', 'MongoDB', 'Rest Api', 'Cloudinary', 'Javascript', 'Passport-Google-OAuth2', 'Facebook OAuth'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
+        code: 'https://github.com/Aryan-chaudhry/Visitly',
         demo: 'https://visitly-live.onrender.com/listings',
         image: Visitly
     },
@@ -45,8 +45,8 @@ export const projectsData = [
         projectName: 'Personal Portfolio',
         projectDesc: 'If you want to Know who i am than this is the way',
         tags: ['React.js'],
-        code: '',
-        demo: 'https://educative-clone.vercel.app/',
+        code: 'https://github.com/Aryan-chaudhry/PortFolio',
+        demo: 'https://aryan-chaudhry.github.io/',
         image: PersonalPortfolio
     }, 
     // {
