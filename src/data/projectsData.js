@@ -7,54 +7,57 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
+import Calculator from '../assets/Images/Calculator.png'
+import WeatherForecast from '../assets/Images/WeatherForecast.png'
+import Visitly from '../assets/Images/Visitly.png'
+import PersonalPortfolio from '../assets/Images/PersonalPortfolio.png'
 
 export const projectsData = [
+    
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
-    },
-    {
+        projectName: 'Calculator',
+        projectDesc: 'Developed responsive and dynamic calculator',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/Aryan-chaudhry/Projects/tree/main/Calculator',
+        demo: 'https://aryan2629-calculator.netlify.app/',
+        image: Calculator
+    },{
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'Weather Forecast System',
+        projectDesc: 'Developed a React-based weather app with 5-day forecasts, real-time tsunami/earthquake alerts (USGS), AI-generated weather warnings, interactive 3D globe, and custom location support via OpenCage API.',
+        tags: ['React.js', 'Open Weather Map', 'OpenCage', 'USGS Api' ,'TailwindCSS', 'Javascript'],
+        code: 'https://github.com/Aryan-chaudhry/Weather-Forecast',
+        demo: 'https://weather-forecast-aryan.netlify.app/',
+        image: WeatherForecast
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: 'Visitly, The Accomodation Platform',
+        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
+        tags: ['Ejs', 'Node.js','Express.js', 'MongoDB', 'Rest Api', 'Cloudinary', 'Javascript', 'Passport-Google-OAuth2', 'Facebook OAuth'],
+        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
+        demo: 'https://visitly-live.onrender.com/listings',
+        image: Visitly
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    },
-    {
-        id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    },
-    
+        projectName: 'Personal Portfolio',
+        projectDesc: 'If you want to Know who i am than this is the way',
+        tags: ['React.js'],
+        code: '',
+        demo: 'https://educative-clone.vercel.app/',
+        image: PersonalPortfolio
+    }, 
+    // {
+    //     id: 5,
+    //     projectName: 'My Wallet',
+    //     projectDesc: 'Are you getting worry that you cant handle income and expense :( Dont worry here is your "myWallet" which track your income and expense securly also give daily report,  you can also download them when every you want :)',
+    //     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Api'],
+    //     code: 'https://github.com/Aryan-chaudhry/Weather-Forecast',
+    //     demo: 'https://weather-forecast-aryan.netlify.app/',
+    //     image:""
+    // },   
 ]
 
 

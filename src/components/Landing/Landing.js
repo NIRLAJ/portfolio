@@ -7,6 +7,7 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
+import { SiLeetcode } from 'react-icons/si';
 
 import {
     FaTwitter,
@@ -100,7 +101,21 @@ function Landing() {
                                     aria-label='GitHub'
                                 />
                             </a>
-                        )}
+                        )},
+                        {socialsData.Leetcode && (
+                            <a
+                                href={socialsData.Leetcode}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="LeetCode profile link"
+                            >
+                                <SiLeetcode
+                                className="landing--social"
+                                style={{ color: theme.secondary }}
+                                aria-hidden="true"
+                                />
+                            </a>
+                            )}
                         {/* {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
