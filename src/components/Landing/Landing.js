@@ -101,7 +101,7 @@ function Landing() {
                                     aria-label='GitHub'
                                 />
                             </a>
-                        )},
+                        )}
                         {socialsData.Leetcode && (
                             <a
                                 href={socialsData.Leetcode}
