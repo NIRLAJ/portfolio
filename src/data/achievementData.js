@@ -7,7 +7,7 @@ import Hacktrack from '../assets/Images/Hacktrack.png'
 
 
 export const achievementData = {
-    bio : "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. - Alvin Toffler",
+    bio : "When life gives you lemons, make lemonade. I have always believed in this quote and have tried to make the most of every opportunity that comes my way",
     achievements : [
         {
             id : 1,
@@ -19,7 +19,7 @@ export const achievementData = {
         },
         {
             id : 2,
-            title : 'National-Level DSA Coding Quiz',
+            title : 'DSA Coding Quiz',
             details : 'Secure 53rd Rank out of 1,115',
             date : '',
             field : 'Coding',

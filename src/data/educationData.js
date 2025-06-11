@@ -8,7 +8,7 @@ export const educationData = [
     },
     {
         id: 2,
-        institution: 'Nishan Public School',
+        institution: 'Delhi Public School',
         course: 'Non-Medical PCM',
         startYear: '2021',
         endYear: '2022'

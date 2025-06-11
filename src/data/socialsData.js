@@ -1,7 +1,7 @@
 export const socialsData = {
-    github: 'https://github.com/Aryan-chaudhry',
+    github: 'https://github.com/NIRLAJ',
     facebook: '',
-    linkedIn: 'https://www.linkedin.com/in/aryan-chaudhary-83571a252/',
+    linkedIn: 'https://www.linkedin.com/in/sahil-yadav-157a42266/',
     instagram: '',
     codepen: '',
     twitter: '',
@@ -10,6 +10,6 @@ export const socialsData = {
     medium: '',
     stackOverflow: '',
     gitlab: '',
-    Leetcode: 'https://leetcode.com/u/Aryan_306/',
+    Leetcode: 'https://leetcode.com/u/sy5742654/',
     youtube: ''
 }

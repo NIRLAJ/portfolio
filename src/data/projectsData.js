@@ -7,7 +7,7 @@ export const projectsData = [
     
     {
         id: 1,
-        projectName: 'Calculator',
+        projectName: 'Snake Game',
         projectDesc: 'Developed responsive and dynamic calculator',
         tags: ['HTML', 'CSS', 'JavaScript'],
         code: 'https://github.com/Aryan-chaudhry/Projects/tree/main/Calculator',
@@ -15,7 +15,7 @@ export const projectsData = [
         image: Calculator
     },{
         id: 2,
-        projectName: 'Weather Forecast System',
+        projectName: 'AI vioce assistant',
         projectDesc: 'Developed a React-based weather app with 5-day forecasts, real-time tsunami/earthquake alerts (USGS), AI-generated weather warnings, interactive 3D globe, and custom location support via OpenCage API.',
         tags: ['React.js', 'Open Weather Map', 'OpenCage', 'USGS Api' ,'TailwindCSS', 'Javascript'],
         code: 'https://github.com/Aryan-chaudhry/Weather-Forecast',
@@ -24,7 +24,7 @@ export const projectsData = [
     },
     {
         id: 3,
-        projectName: 'Visitly, The Accomodation Platform',
+        projectName: 'Node.js Hotel Management System',
         projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
         tags: ['Ejs', 'Node.js','Express.js', 'MongoDB', 'Rest Api', 'Cloudinary', 'Javascript', 'Passport-Google-OAuth2', 'Facebook OAuth'],
         code: 'https://github.com/Aryan-chaudhry/Visitly',
