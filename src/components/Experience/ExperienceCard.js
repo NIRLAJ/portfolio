@@ -13,7 +13,7 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
 
     const { theme } = useContext(ThemeContext);
 
-    const useStyles = makeStyles((t) => ({
+    const useStyles = makeStyles(() => ({
         experienceCard : {
             backgroundColor:theme.primary30,
             "&:hover": {
@@ -23,7 +23,6 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
     }));
 
     const classes = useStyles();
-
 
     return (
         <Fade bottom>

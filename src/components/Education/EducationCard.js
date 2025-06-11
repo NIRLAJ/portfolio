@@ -12,7 +12,7 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
 
     const { theme } = useContext(ThemeContext);
 
-    const useStyles = makeStyles((t) => ({
+    const useStyles = makeStyles(() => ({
         educationCard : {
             backgroundColor:theme.primary30,
             "&:hover": {

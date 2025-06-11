@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import star5 from '../assets/Images/5star.png'
 import LeaderBoard from '../assets/Images/LeaderBoard.png'
 import codeRelay from '../assets/Images/CodeRelay.png'
@@ -34,7 +34,7 @@ export const achievementData = {
             image : codeRelay
         },
         {
-            id : 3,
+            id : 4,
             title : 'Hack Track Competition',
             details : 'Secure Second Position in Hacktrack Held in Chandigarh University',
             date : '',
@@ -42,7 +42,7 @@ export const achievementData = {
             image : Hacktrack
         },
         {
-            id : 4,
+            id : 5,
             title : 'Solve 430+ Problems',
             details : 'Solved 430+ Problems on Leetcode',
             date : '',
